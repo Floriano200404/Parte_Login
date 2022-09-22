@@ -180,7 +180,7 @@ input{
     width: 110px;
     height: 50px;
 margin-top: 111px;
-  margin-left: 80px;
+  margin-left: 71px;
     border-radius: 20px;
     border: none;
     color: black;
@@ -223,6 +223,7 @@ margin-top: 111px;
     margin-left: 100px;
     width: 100vw;
     height: 1450px; 
+ 
 }
 .img_2{
     width: 30px;
@@ -266,4 +267,104 @@ margin-bottom: 20px;
 .icon2{
     display: flex;
     margin-left: 20px;
+}
+select{
+    width: 250px;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+.card_{
+    background-color: #d9d9d9;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 55px;
+    border-radius: 25px;
+    
+   
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.personal-image {
+    text-align: center;
+  }
+  .personal-image input[type="file"] {
+    display: none;
+  }
+
+  .personal-figure {
+    position: relative;
+    width: 120px;
+    height: 120px;
+  }
+
+  .personal-avatar {
+    cursor: pointer;
+    width: inherit;
+    height: inherit;
+    box-sizing: border-box;
+    border-radius: 100%;
+    border: 2px solid transparent;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.2);
+    transition: all ease-in-out .3s;
+  }
+  .personal-avatar:hover {
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
+  }
+
+
+  .personal-figcaption {
+    cursor: pointer;
+    position: absolute;
+    top: 0px;
+    width: inherit;
+    height: inherit;
+    border-radius: 100%;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0);
+    transition: all ease-in-out .3s;
+  }
+  .personal-figcaption:hover {
+    opacity: 1;
+    background-color: rgba(0, 0, 0, .5);
+  }
+  .personal-figcaption > img {
+    margin-top: 32.5px;
+    width: 50px;
+    height: 50px;
+  }
+  .ajust_meio{
+margin-left: 560px;
+
+  }
+  .Button_D{
+    display: flex;
+    flex-direction: column;
+    background-color: #4af501;
+    width: 110px;
+    height: 50px;
+margin-top: 111px;
+  margin-left: 636px;
+    border-radius: 20px;
+    border: none;
+    color: black;
+    align-items: center;
+    
+  }
+  .Informacoes{
+position: absolute;
+top: 50%;
+left: 6%
+  }
+.biografia{
+    background-color: #cacbca;
+   margin-left: 130px;
+   height: 150px;
+    width: 400px;
+    margin-top: 213px;
 }
