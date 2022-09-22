@@ -8,7 +8,7 @@ import { GrPlan } from "react-icons/gr";
 import { GrHome } from "react-icons/gr";
 export default function Entrar() {
   return (
-    <div className='Principal '>
+    <div className='pai '>
         <h1 className='Text_alto'>SA</h1>
       <img src= { Logo}  className = 'img_2'/>
       <ul>
@@ -34,7 +34,7 @@ export default function Entrar() {
         </Link>
         </li>
         <li className='ajust'>
-        <Link to="/Perfil">
+        <Link to="/Reservar">
         <a href='#' >
           <span className='icon2'><GrPlan/></span>
           <span className='list'>Reservar</span>
