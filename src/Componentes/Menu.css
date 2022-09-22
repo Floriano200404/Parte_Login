@@ -1,3 +1,4 @@
+
 .pai{
     font-family: Arial, Helvetica, sans-serif;
    
@@ -231,14 +232,11 @@ margin-top: 111px;
     left: 15%;
 }
 .Text_alto{
-margin-left: 100px;
-
-
+    margin-left: 100px;
 }
 table{
     margin-left: 300px;
     border: none;
-   
 }
 th{
     border: none;
