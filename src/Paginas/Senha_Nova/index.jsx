@@ -4,7 +4,7 @@ import Logo from '../../Img/Logo.png';
 
 
 
-export default function Criar_Conta() {
+export default function Senha_Nova() {
   return (
     <div className='pai'>
         

@@ -1,9 +1,16 @@
-
 .pai{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #a6a6a6;
+   
     width: 100vw;
     height: 100vw;
+    
+    background:linear-gradient(45deg ,rgb(255, 255, 255),#a6a6a6,rgb(65, 51, 67),rgb(0, 0, 0));
+    background-size: 400% 400%;
+    text-align: center;
+   
+    animation: colors  15s ease infinite;
+   
+
    
 }
 
@@ -184,4 +191,81 @@ margin-top: 111px;
     top: 80%;
     left: 60%;
   
+}
+
+@keyframes colors {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    
+    }
+  }
+  .Principal{
+    background-color:#cacbca;
+    width: 100vw;
+    height: 100vw;
+    font-family: cursive;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+   
+    
+
+  }
+.sub_card{
+    background-color: white;
+    margin-left: 100px;
+    width: 100vw;
+    height: 1450px; 
+}
+.img_2{
+    width: 30px;
+    height: 40px;
+    position: absolute;
+    top: 5%;
+    left: 15%;
+}
+.Text_alto{
+margin-left: 100px;
+
+
+}
+table{
+    margin-left: 300px;
+    border: none;
+   
+}
+th{
+    border: none;
+}
+ul{
+   position: absolute;
+   left: -3%;
+   top:5%;
+   
+  
+} 
+li{
+margin-bottom: 20px;
+}
+.icon{
+    display: flex;
+    margin-left: 30px;
+    width: 50px;
+    height: 20px;
+}
+.ajust{
+  margin-left: 10px;
+}
+.botão_sair{
+    margin-top: 1120px;
+}
+.icon2{
+    display: flex;
+    margin-left: 20px;
 }

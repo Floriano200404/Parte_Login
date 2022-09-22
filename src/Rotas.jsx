@@ -5,7 +5,8 @@ import Recu_Senha from './Paginas/Recu_Senha';
 import Criar_Conta from './Paginas/Criar_Conta';
 import Senha_Nova from './Paginas/Senha_Nova';
 import Codigo_Senha from './Paginas/Codigo_Senha';
-
+import Perfil from './Paginas/Perfil';
+import Reservar from './Paginas/Reservar';
 function Rotas() {
   return (
     // Lista de rotas
@@ -17,6 +18,9 @@ function Rotas() {
             <Route path="/entrar" element={ <Entrar /> } />
             <Route path="/Recu_Senha" element={ <Recu_Senha /> } />
             <Route path="/criar_conta" element={ <Criar_Conta /> } />
+            <Route path="/Perfil" element={ <Perfil /> } />
+            <Route path="/Reservar" element={ <Reservar /> } />
+
         </Routes>
     </BrowserRouter>
   )
