@@ -10,9 +10,9 @@ export default function Senha_Nova() {
         
     <div className='card_R'>
     <img src= { Logo}  className = 'img'/>
-    <div className='textos'>
+    <div className='card_texts'>
     <h1 >SA</h1>
-    <h3 className='text1' >Sistema de agendamento</h3>
+    <h3>Sistema de agendamento</h3>
     <h2 >Recuperar Senha</h2>
     <h5 >Para Recuperar sua senha, preencha o<br></br>campo a baixo com seu e-mail cadastrado.</h5>
     </div>
@@ -22,7 +22,7 @@ export default function Senha_Nova() {
   <br></br>
     
   <button className='Button_R'>
-        <Link to="/Codigo_Senha">
+        <Link to="/codigo_senha">
             <h2  >
               Enviar
             </h2>

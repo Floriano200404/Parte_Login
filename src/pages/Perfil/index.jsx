@@ -8,11 +8,11 @@ import { GrPlan } from "react-icons/gr";
 import { GrHome } from "react-icons/gr";
 export default function Perfil() {
   return (
-    <div className='pai'>
+    <div className='pai_perfil'>
            <h1 className='Text_alto'>SA</h1>
       <img src= { Logo}  className = 'img_2'/>
       <ul>
-        <li>
+        <div className='menu'>
         <Link to="/Perfil">
         <a href='#' >
           <span className='icon'> <FiUser />
@@ -20,10 +20,9 @@ export default function Perfil() {
           <span className='list'>Perfil</span>
         </a>
         </Link>
-        </li>
+        </div>
 
         
-        <li>
         <Link to="/Entrar">
         <a href='#' >
           <span className='icon'><GrHome /></span>
@@ -32,7 +31,6 @@ export default function Perfil() {
             
         
         </Link>
-        </li>
         <li className='ajust'>
         <Link to="/Reservar">
         <a href='#' >
@@ -74,13 +72,17 @@ export default function Perfil() {
 
 <div className='Informacoes'>
       <h3>Nome:</h3>
+      <input type="text" className='biografia'></input>
+
       <h3>E-mail:</h3>
+      <input type="text" className='biografia'></input>
       <h3>‎ ‎ ‎ ‎ ‎ ‎ N° Celular:</h3>
       <h3>CPF:</h3>
+      <input type="text" className='biografia'></input>
+
       <h3>‎ ‎ ‎  Biografia:</h3>
-     
+     <input type="text" className='biografia'></input>
       </div>
-      <input type='text' className='biografia'></input>
     </div>
 
 
