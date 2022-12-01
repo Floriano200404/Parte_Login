@@ -30,7 +30,7 @@ function Home() {
         <h1 class="Title">SA</h1>
         <span class="Subtitle">SISTEMA DE AGENDAMENTO</span>
         <img src= { Logo}  className = 'img'/>
-        <form className='form' onSubmit={handleLogin}>
+        <form className='input_login' onSubmit={handleLogin}>
             <input type="email"
                    placeholder='EMAIL'
                    value={email}
@@ -39,11 +39,19 @@ function Home() {
                    placeholder='Senha'
                    value={password}
                    onChange={(e)=>setPassword(e.target.value)}/> <br/>
-                   <button type="submit" className='acesso'>Acessar</button>
+                   <button type="submit" to={"/entrar"} className='acesso'>Acessar</button>
         </form>
-        <Link className="button-Link" to={'/register'}>
-            Não possui uma conta? Cadastre-se
+        <button className='acesso'>
+        <Link to={'/register'}>
+            <h3>Cadastre-se</h3>
         </Link>
+        </button>
+
+        
+        <Link className="password" to={'/senha_nova'}>
+            Esqueceu a senha? 
+        </Link>
+        
       </div>
       </div>
     )
